@@ -109,7 +109,7 @@ header h1 {
     color: #000000; 
 }
 .about-me h3 {
-    color: #777474; 
+    color: #000000; 
 }
 
 .about-me p {
@@ -135,4 +135,12 @@ header {
     text-align: center;
     padding: 10px;
     width: 100%; 
+}
+.contact-form {
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;
+    max-width: 500px; 
 }
