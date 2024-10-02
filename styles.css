@@ -1,3 +1,4 @@
+/* Home Page */
 header {
     background-color: #ffeadd; 
     padding: 10px 0; 
@@ -71,6 +72,33 @@ h1 {
 
 .welcome-footer {
    margin-top: 240px;
+    text-align: center;
+    padding: 10px;
+    width: 100%; 
+}
+
+/* About Page */
+.about-me {
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+.about-me h2, .about-me h3 {
+    color: #d7b2b2; 
+
+}
+
+.about-me p {
+    line-height: 1.6;
+    margin-bottom: 15px; 
+
+}
+.about-footer {
+    margin-top: 240px;
     text-align: center;
     padding: 10px;
     width: 100%; 
