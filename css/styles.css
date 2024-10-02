@@ -17,7 +17,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0); 
+    color: rgb(4, 4, 4); 
     text-decoration: none; 
     font-weight: bold; 
     font-family: 'Playfair Display', serif;
@@ -78,6 +78,18 @@ h1 {
 }
 
 /* About Page */
+
+header {
+    /*text-align: left; */
+   /* margin-left: 20px; */
+    font-size: 20px;  
+}
+
+header h1 {
+    text-align: left; 
+    margin-left: 20px; 
+    font-size: 40px;
+}
 .about-me {
     padding: 20px; 
     background-color: #fff; 
@@ -87,9 +99,17 @@ h1 {
     max-width: 800px; 
 }
 
-.about-me h2, .about-me h3 {
-    color: #d7b2b2; 
+.about-me h1 {
+    font-size: 35px;  
+    text-align: center;
+    color: #000000;   
 
+}
+.about-me h2 {
+    color: #000000; 
+}
+.about-me h3 {
+    color: #777474; 
 }
 
 .about-me p {
@@ -105,6 +125,11 @@ h1 {
 }
 
 /* Contact Page */
+
+header {
+   margin-left: 20px; 
+    text-align: left; 
+}
 .contact-footer {
     margin-top: 240px;
     text-align: center;
