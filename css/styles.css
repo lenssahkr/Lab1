@@ -6,6 +6,7 @@ header {
 }
 
 nav ul {
+    display: flex;
     list-style-type: none; 
     padding: 0 1px ; 
     text-align: right;
@@ -34,6 +35,7 @@ nav ul li a:focus {
 
 .italic {
     font-style: italic; 
+    color: rgb(255, 59, 59); 
 }
 
 body {
@@ -124,6 +126,13 @@ header h1 {
     width: 100%; 
 }
 
+.lund-university-logo {
+    width: 40%; 
+}
+
+.web-development {
+    width: 28%; 
+}   
 /* Contact Page */
 
 header {
@@ -143,4 +152,71 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     margin: 20px auto;
     max-width: 500px; 
+}
+
+/* Responsive design */
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px; 
+    }
+
+    header {
+        text-align: center; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+
+    .welcome-titel {
+        padding-right: 80px; 
+        margin: 20px 0; 
+        text-align: left;
+    }
+
+    .welcome-image {
+        width: 50%; 
+        /*margin-left: 0; 
+        margin-top: 20px; */
+        height: auto;
+        align-content: center;
+        padding-left: 200px;
+    }
+
+    .about-me {
+        padding: 10px; 
+    }
+
+    .contact-form {
+        padding: 15px; 
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .welcome-me {
+        width: 20%; 
+        margin-top: -180px; 
+        margin-left: 800px;
+    }
+
+    nav ul {
+        display: flex; 
+        justify-content: flex-end; 
+    }
+
+    .about-me {
+        padding: 20px; 
+    }
+
+    .contact-form {
+        max-width: 600px; 
+    }
+}
 }
